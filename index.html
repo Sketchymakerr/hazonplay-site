@@ -1,3 +1,45 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Política de privacidade do HazonPlay para Windows, Android, Samsung e LG webOS."><title>Privacidade · HazonPlay</title><style>
-:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0b0712;color:#eee7f7;font:17px/1.75 system-ui,-apple-system,Segoe UI,sans-serif}header{border-bottom:1px solid #372444;background:radial-gradient(ellipse at top right,#482065,transparent 70%),#130b20}header>div,main,footer{max-width:960px;margin:auto;padding:32px 28px}header img{width:190px;height:auto}header small{display:block;color:#cfadf2;margin-top:32px;letter-spacing:.12em;text-transform:uppercase}h1{font-size:clamp(30px,5vw,48px);line-height:1.15;margin:12px 0 18px;letter-spacing:-.03em}header p{max-width:600px;color:#d4c7e3}main{padding-top:18px}h2{font-size:24px;line-height:1.3;margin:42px 0 16px;color:#d8b4fe}p{margin:0 0 20px}a{color:#d9acff;text-underline-offset:4px}a:focus-visible{outline:3px solid #54e4ee;outline-offset:5px}footer{border-top:1px solid #372444;color:#bbaace;font-size:14px}@media(max-width:600px){header>div,main,footer{padding-left:20px;padding-right:20px}body{font-size:16px}}
-</style></head><body><header><div><a href="privacidade.html" aria-label="HazonPlay — política de privacidade"><img src="hazonplay.svg" alt="HazonPlay"></a><small>Seu conteúdo. Seu momento.</small><h1>Política de privacidade</h1><p>Como seus dados são usados e protegidos ao dar o play.</p></div></header><main><p>Atualizada em 29 de outubro de 2026. Responsável público: HazonPlay. Contato: playhazon@gmail.com.</p><h2>Dados utilizados</h2><p>O HazonPlay é um reprodutor. Para acessar uma fonte escolhida por você, pode usar endereço do servidor, usuário, senha ou link M3U. Favoritos, histórico, posição de reprodução, catálogo em cache e preferências podem permanecer no dispositivo. O aplicativo não fornece assinatura de canais comerciais nem cria conta HazonPlay.</p><h2>Armazenamento e segurança</h2><p>No Windows, as credenciais salvas usam DPAPI vinculada ao usuário do Windows. Essa proteção não criptografa todo o perfil: endereços no histórico, cache ou backups também podem conter informações de acesso. No webOS com o patch de proteção, o aplicativo usa o serviço Keymanager3 da LG quando disponível. Login, favoritos, histórico e preferências são armazenados em um arquivo local cifrado com AES-256-GCM; a chave pertence ao aplicativo e permanece no cofre nativo da TV. Se esse serviço não estiver disponível ou a proteção não puder ser utilizada, esses dados ficam apenas na memória da sessão e precisam ser informados novamente ao reabrir o aplicativo. Isso também se aplica a favoritos, histórico e preferências criados nessa sessão. O Simulator não oferece o serviço nativo. Dados antigos sem essa proteção são migrados quando o cofre funciona ou removidos do armazenamento persistente e mantidos apenas na sessão quando ele não funciona. Se a limpeza falhar, o acesso é bloqueado com instruções para apagar os dados do aplicativo. Um cofre cifrado que não puder ser aberto é preservado; a ação explícita de esquecer o acesso também pode removê-lo. O pacote webOS 0.7.0 original, anterior a esse patch, armazenava dados em Web Storage sem criptografia adicional. A implementação do patch ainda depende de validação em uma TV física; não representa certificação de segurança pela LG. Outros usuários do dispositivo, ferramentas de desenvolvimento, cópias de perfil ou backups podem ter acesso a dados locais. Não compartilhe arquivos de perfil ou links de acesso.</p><p>No Android, o acesso salvo usa criptografia AES-GCM com chave mantida no Android Keystore. A biblioteca local conserva identificadores e metadados, sem guardar URLs de reprodução ou credenciais. Na versão Samsung/Tizen 0.7.0, o acesso e os dados locais usam Web Storage sem criptografia adicional pelo aplicativo. Não há promessa de proteção equivalente ao cofre nativo das outras plataformas.</p><h2>Conexões e terceiros</h2><p>A reprodução e atualização da lista conectam o dispositivo ao provedor escolhido e aos servidores de vídeo, imagens ou programação indicados pela fonte. Eles recebem o endereço IP e os dados de acesso necessários à requisição, sob suas próprias políticas. O Modo teste conecta-se a servidores públicos de obras de licença aberta e não requer credenciais. O HazonPlay não opera serviço próprio de telemetria nesta versão. Diagnósticos oferecidos pela interface omitem URLs e credenciais, mas isso não controla registros mantidos por terceiros. Um proxy externo configurado pelo usuário pode receber endereços e credenciais. Conexões HTTP não oferecem a proteção de transporte de HTTPS.</p><h2>Controle dos dados</h2><p>Você pode apagar acesso salvo em Minha lista, remover favoritos e gerenciar histórico pelas funções disponíveis. Para remoção integral, também pode ser necessário apagar dados locais do aplicativo no dispositivo. Desinstalar não garante exclusão de backups ou cópias externas. Backups/exportações disponíveis em algumas plataformas são responsabilidade de quem os cria. O webOS não oferece todas as funções de backup da versão Windows. Exclua cópias separadamente e não as compartilhe com dados pessoais.</p><h2>Contato e alterações</h2><p>Para dúvidas sobre o aplicativo ou pedidos sobre dados eventualmente enviados ao suporte, escreva para playhazon@gmail.com. Dados enviados voluntariamente por e-mail também são processados pelo serviço de e-mail utilizado. Esta política pode mudar com novas versões; a data acima identifica a revisão. A versão vigente desta política é publicada no endereço público indicado pelo HazonPlay.</p></main><footer>HazonPlay · <a href="mailto:playhazon@gmail.com">playhazon@gmail.com</a></footer></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Site oficial do HazonPlay. Acesse a política de privacidade e o contato de suporte.">
+  <meta name="theme-color" content="#0b0712">
+  <title>HazonPlay — Seu conteúdo. Seu momento.</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b0712; --panel:#130b20; --line:#372444; --text:#eee7f7; --muted:#cbb9dc; --accent:#d9acff; --cyan:#54e4ee; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:flex; flex-direction:column; background:radial-gradient(ellipse at 80% 0%,#482065 0,transparent 48%),var(--bg); color:var(--text); font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    header, main, footer { width:min(100% - 40px,960px); margin-inline:auto; }
+    header { padding:32px 0; }
+    header img { display:block; width:190px; height:auto; }
+    main { flex:1; display:flex; align-items:center; padding-block:48px 96px; }
+    .content { max-width:680px; }
+    .eyebrow { color:var(--accent); font-size:13px; letter-spacing:.14em; text-transform:uppercase; }
+    h1 { margin:12px 0 18px; font-size:clamp(38px,7vw,64px); line-height:1.08; letter-spacing:-.04em; }
+    p { color:var(--muted); margin:0 0 30px; }
+    nav { display:flex; flex-wrap:wrap; gap:14px; }
+    a { color:var(--accent); text-underline-offset:4px; }
+    .button { display:inline-block; padding:12px 18px; border:1px solid #9c4de8; border-radius:10px; background:#8b2bd4; color:#fff; font-weight:650; text-decoration:none; }
+    .button.secondary { border-color:var(--line); background:var(--panel); color:var(--text); }
+    a:focus-visible { outline:3px solid var(--cyan); outline-offset:4px; }
+    footer { border-top:1px solid var(--line); padding:22px 0 30px; color:var(--muted); font-size:14px; }
+    @media (max-width:600px) { header,main,footer { width:min(100% - 32px,960px); } main { padding-block:32px 64px; } }
+  </style>
+</head>
+<body>
+  <header><a href="./" aria-label="HazonPlay — início"><img src="hazonplay.svg" alt="HazonPlay"></a></header>
+  <main>
+    <section class="content" aria-labelledby="title">
+      <div class="eyebrow">HazonPlay</div>
+      <h1 id="title">Seu conteúdo.<br>Seu momento.</h1>
+      <p>Bem-vindo ao site oficial do HazonPlay. Encontre aqui a política de privacidade e o contato de suporte.</p>
+      <nav aria-label="Links principais">
+        <a class="button" href="privacidade.html">Política de privacidade</a>
+        <a class="button secondary" href="mailto:playhazon@gmail.com">Falar com o suporte</a>
+      </nav>
+    </section>
+  </main>
+  <footer>HazonPlay · <a href="mailto:playhazon@gmail.com">playhazon@gmail.com</a></footer>
+</body>
+</html>
